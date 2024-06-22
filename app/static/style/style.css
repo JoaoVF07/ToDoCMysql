@@ -1,0 +1,87 @@
+.bodyInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 22, 112);
+}
+.bodyInicio .container{
+    margin-top: 50px;
+    width: 60%;
+    height: 600px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 25px rgb(7, 53, 255);
+}
+.bodyInicio .container h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(22, 22, 112);
+    font-weight: bold;
+}
+.loginCadCont p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loginCadCont a{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(7, 53, 255);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.loginCadCont a:hover{
+    background-color: rgb(22, 22, 112);
+    cursor: pointer;
+}
+.loginCadCont{
+    margin-top: 90px;
+}
+.container input{
+    margin-bottom: 20px;
+    width: 50%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(22, 22, 112);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.container label{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+.container label:first-child{
+    margin-top: 100px;
+}
+.container button{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(7, 53, 255);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.container button:hover{
+    background-color: rgb(22, 22, 112);
+    cursor: pointer;
+}
+
